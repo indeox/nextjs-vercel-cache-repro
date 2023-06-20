@@ -4,7 +4,7 @@ const revalidate = 3600; // Cache for 1 hour
 export default function Home() {
   return (
     <div style={{ padding: "50px" }}>
-      <p>👋 The time at page render is <strong>{new Date().toUTCString()}</strong></p>
+      <p>(Preview branch) 👋 The time at page render is <strong>{new Date().toUTCString()}</strong></p>
       <p><em>(Cache is set to {revalidate} seconds)</em></p>
       <hr />
       <br />
